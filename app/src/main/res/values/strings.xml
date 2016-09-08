@@ -1,0 +1,22 @@
+<resources>
+    <integer name="com_vk_sdk_AppId">5583904</integer>
+    <string name="app_name">BirthdayReminder</string>
+
+    <string name="name">Имя</string>
+    <string name="date">Дата</string>
+    <string name="add">Добавить</string>
+    <string name="edit">Редактировать</string>
+    <string name="preference">Настройки</string>
+    <string name="ok">Ок</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="deleting_title">Удаление</string>
+    <string name="deleting_message">Вы действиительно хотите удалить эту запись?</string>
+    <string name="error">Ошибочка</string>
+    <string name="empty_fields_error">Какое-то из полей не заполнено :(</string>
+
+    <string name="synchronization">Синхронизация</string>
+    <string name="contacts">Телефонная книга</string>
+    <string name="hidden">Скрытие</string>
+</resources>

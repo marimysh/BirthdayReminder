@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:visible="false"
+        android:title="@string/preference"/>
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:icon="@drawable/add_white_48dp"/>
+    <item
+        android:id="@+id/done"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:icon="@drawable/done_white_48dp"/>
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:icon="@drawable/delete_white_48"/>
+
+</menu>

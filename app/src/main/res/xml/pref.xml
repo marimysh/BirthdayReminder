@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/synchronization" >
+        <SwitchPreference
+            android:key="contacts"
+            android:title="@string/contacts" />
+        <SwitchPreference
+            android:key="vk"
+            android:title="@string/vk_name" />
+    </PreferenceCategory>
+</PreferenceScreen>
