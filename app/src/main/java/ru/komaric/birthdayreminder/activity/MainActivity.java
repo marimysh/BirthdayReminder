@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
     private final int PERSONS_LOADER_ID = 0;
     private final int PERSONS_LOADER_WITH_REFRESH_ID = 1;
 
-    public final static int IN_MAIN_ACTIVITY = 0;
+    public final static int REQUEST_PERMISSIONS_CONTACTS = 0;
 
     final int EDIT_ACTIVITY_ADD = 0;
     final int EDIT_ACTIVITY_EDIT = 1;
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         switch (requestCode) {
-            case IN_MAIN_ACTIVITY:
+            case REQUEST_PERMISSIONS_CONTACTS:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     Loader<ArrayList<Person>> loader = getSupportLoaderManager().restartLoader(PERSONS_LOADER_ID, null, this);
                     loader.forceLoad();

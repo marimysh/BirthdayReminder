@@ -59,7 +59,7 @@ public final class ListBuilder {
                 PackageManager.PERMISSION_DENIED) {
             ActivityCompat.requestPermissions((Activity) context,
                     new String[]{Manifest.permission.READ_CONTACTS},
-                    MainActivity.IN_MAIN_ACTIVITY);
+                    MainActivity.REQUEST_PERMISSIONS_CONTACTS);
             return persons;
         }
 
